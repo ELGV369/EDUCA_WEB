@@ -1,0 +1,501 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.menu {
+    background: rgb(70, 81, 235);
+    height: 70px;
+    border: 2px solid black;
+}
+.imgg{
+display: inline-block;
+box-sizing: content-box;
+padding:5px 10PX 5PX 100PX;
+}
+.menu1 {
+font-size: 30px;
+float: right;
+padding: 10px 0px 10px 60px
+}
+.menu  {
+  display: flex;
+    
+    }
+.menu button {
+
+    font-size: 30px;
+float: right;
+padding: 0px 10px 0px 10px;
+margin-top: 10px;
+margin-left: 30px;
+
+}
+
+
+
+p a {
+    text-decoration: none;
+    color: black
+}
+
+.menu1 :hover {
+color: rgb(218, 205, 205);
+}
+
+.sobrenos {
+background-image: url(img/Home\ \(1\).jpg);
+  padding: 0 0 0 30px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.cursos {
+width: 100%;
+height: 1000px;
+background-color: #1d45bb;
+padding: 0 0 0 50px;
+
+}
+
+    
+
+
+.imagem1 {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.imagem1:hover .pos1 {
+transform: rotateY(180deg);
+
+}
+
+.pos1 {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    
+}
+
+.frente1, .tras1 {
+    display: inline-block;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px,0px, 10px black;
+backface-visibility: hidden;
+}
+
+.frente1 {
+    display: inline-block;
+background-image: url(img/primeiros\ socorros.jpg);
+background-size: cover;
+}
+
+.tras1 {
+    display: inline-block;
+    background-color: lavender;
+    transform: rotateY(180deg);
+    padding: 50px 0px 0px 10px;
+   
+}
+
+.bu1 {
+    display: inline-block;
+   padding: 0px 0px 0px 90px;
+    
+}
+
+.imagem2 {
+  
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.imagem2:hover .pos2 {
+    display: inline-block;
+transform: rotateY(180deg);
+
+}
+
+.pos2 {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    
+}
+
+.frente2, .tras2 {
+    display: inline-block;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px,0px, 10px black;
+backface-visibility: hidden;
+}
+
+.frente2 {
+    display: inline-block;
+background-image: url(img/sites.jpg);
+background-size: cover;
+}
+
+.tras2 {
+    display: inline-block;
+    background-color: lavender;
+    transform: rotateY(180deg);
+    padding: 50px 0px 0px 10px;
+   
+}
+
+.bu2 {
+    display: inline-block;
+   padding: 0px 0px 0px 90px;
+    
+}
+
+.imagem3 {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.imagem3:hover .pos3 {
+transform: rotateY(180deg);
+
+}
+
+.pos3 {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    
+}
+
+.frente3, .tras3 {
+    display: inline-block;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px,0px, 10px black;
+backface-visibility: hidden;
+}
+
+.frente3 {
+    display: inline-block;
+background-image: url(img/arte.jpg);
+background-size: cover;
+}
+
+.tras3 {
+    display: inline-block;
+    background-color: lavender;
+    transform: rotateY(180deg);
+    padding: 50px 0px 0px 10px;
+   
+}
+
+.bu3 {
+    display: inline-block;
+   padding: 0px 0px 0px 90px;
+    
+}
+
+.imagem4 {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.imagem4:hover .pos4 {
+transform: rotateY(180deg);
+
+}
+
+.pos4 {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    
+}
+
+.frente4, .tras4 {
+    display: inline-block;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px,0px, 10px black;
+backface-visibility: hidden;
+}
+
+.frente4 {
+    display: inline-block;
+background-image: url(img/imformatica.jpg);
+background-size: cover;
+}
+
+.tras4 {
+    display: inline-block;
+    background-color: lavender;
+    transform: rotateY(180deg);
+    padding: 50px 0px 0px 10px;
+   
+}
+
+.bu4 {
+    display: inline-block;
+   padding: 0px 0px 0px 90px;
+    
+}
+
+.imagem5 {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.imagem5:hover .pos5 {
+transform: rotateY(180deg);
+
+}
+
+.pos5 {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    
+}
+
+.frente5, .tras5 {
+    display: inline-block;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px,0px, 10px black;
+backface-visibility: hidden;
+}
+
+.frente5 {
+    display: inline-block;
+background-image: url(img/maquiagem.jpg);
+background-size: cover;
+}
+
+.tras5 {
+    display: inline-block;
+    background-color: lavender;
+    transform: rotateY(180deg);
+    padding: 50px 0px 0px 10px;
+   
+}
+
+.bu5 {
+    display: inline-block;
+   padding: 0px 0px 0px 90px;
+    
+}
+
+.imagem6 {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.imagem6:hover .pos6 {
+transform: rotateY(180deg);
+
+}
+
+.pos6 {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    
+}
+
+.frente6, .tras6 {
+    display: inline-block;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px,0px, 10px black;
+backface-visibility: hidden;
+}
+
+.frente6 {
+    display: inline-block;
+background-image: url(img/jardinagem.jpg);
+background-size: cover;
+}
+
+.tras6 {
+    display: inline-block;
+    background-color: lavender;
+    transform: rotateY(180deg);
+    padding: 50px 0px 0px 10px;
+   
+}
+
+.bu6 {
+    display: inline-block;
+   padding: 0px 0px 0px 90px;
+    
+}
+
+.imagem7 {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.imagem7:hover .pos7 {
+transform: rotateY(180deg);
+
+}
+
+.pos7 {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    
+}
+
+.frente7, .tras7 {
+    display: inline-block;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px,0px, 10px black;
+backface-visibility: hidden;
+}
+
+.frente7 {
+    display: inline-block;
+background-image: url(img/cozinheiro.jpg);
+background-size: cover;
+}
+
+.tras7 {
+    display: inline-block;
+    background-color: lavender;
+    transform: rotateY(180deg);
+    padding: 50px 0px 0px 10px;
+   
+}
+
+.bu7 {
+    display: inline-block;
+   padding: 0px 0px 0px 90px;
+    
+}
+
+.imagem8 {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.imagem8:hover .pos8 {
+transform: rotateY(180deg);
+
+}
+
+.pos8 {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    
+}
+
+.frente8, .tras8 {
+    display: inline-block;
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 20px;
+box-shadow: 0px,0px, 10px black;
+backface-visibility: hidden;
+}
+
+.frente8 {
+    display: inline-block;
+background-image: url(img/costura.jpg);
+background-size: cover;
+}
+
+.tras8 {
+    display: inline-block;
+    background-color: lavender;
+    transform: rotateY(180deg);
+    padding: 50px 0px 0px 10px;
+   
+}
+
+.bu8 {
+    display: inline-block;
+   padding: 0px 0px 0px 90px;
+    
+}
+
+.certificados {
+                                        
+    width: 100%;
+    height:100 ;
+    background-color:  black;
+    
+}
+                                      
+
